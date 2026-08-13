@@ -1,0 +1,54 @@
+split analysed      : train
+images              : 36,589  (missing json: 0)
+panoramas           : 831
+boxes               : 180,286
+distinct labels     : 401
+labels >=  50 inst  : 273
+labels >= 100 inst  : 154
+labels >= 500 inst  : 21
+boxes < 2% of image : 114,431 (63.5%)
+
+superclass counts:
+  other-sign            118,782
+  regulatory             31,579
+  warning                14,333
+  complementary           9,082
+  information             6,510
+
+property flags true:
+  ambiguous              60,005
+  direction-or-information   23,009
+  occluded               16,470
+  included               10,181
+  dummy                   5,950
+  exterior                4,596
+  highway                 2,413
+  out-of-frame            2,310
+  barrier                 1,249
+
+top 25 labels:
+  other-sign                                              118,782  median    45px
+  regulatory--yield--g1                                     2,428  median    47px
+  information--pedestrians-crossing--g1                     1,913  median    60px
+  regulatory--no-entry--g1                                  1,793  median    42px
+  complementary--chevron-left--g1                           1,570  median    32px
+  complementary--chevron-right--g1                          1,544  median    31px
+  information--parking--g1                                  1,401  median    37px
+  regulatory--stop--g1                                      1,212  median    57px
+  regulatory--keep-right--g1                                1,085  median    42px
+  regulatory--no-stopping--g15                              1,082  median    59px
+  regulatory--priority-road--g4                             1,049  median    42px
+  regulatory--no-parking--g1                                1,039  median    55px
+  warning--pedestrians-crossing--g4                           985  median    64px
+  regulatory--maximum-speed-limit-40--g1                      888  median    52px
+  regulatory--maximum-speed-limit-30--g1                      680  median    54px
+  regulatory--maximum-speed-limit-50--g1                      615  median    47px
+  regulatory--maximum-speed-limit-60--g1                      595  median    48px
+  regulatory--no-parking--g2                                  524  median    41px
+  regulatory--keep-right--g4                                  519  median    38px
+  regulatory--no-parking--g5                                  513  median    41px
+  warning--curve-left--g2                                     500  median    58px
+  warning--road-bump--g2                                      479  median    63px
+  regulatory--one-way-straight--g1                            465  median    44px
+  regulatory--go-straight--g1                                 423  median    37px
+  regulatory--no-left-turn--g1                                416  median    51px

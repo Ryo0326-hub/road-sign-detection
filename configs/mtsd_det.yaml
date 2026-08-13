@@ -1,0 +1,6 @@
+path: /Users/ryokitano/dev/road-sign-detection/data/mtsd_yolo
+train: images/train
+val: images/val
+
+names:
+  0: traffic-sign
